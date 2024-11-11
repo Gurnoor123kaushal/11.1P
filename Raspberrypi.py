@@ -4,7 +4,6 @@ import paho.mqtt.client as mqtt
 import RPi.GPIO as GPIO
 import tkinter as tk
 import cv2
-from PIL import Image, ImageTk
 
 # GPIO and light sensor setup
 light_sensor_pin = 18  # Change to the GPIO pin connected to your light sensor (LDR)
